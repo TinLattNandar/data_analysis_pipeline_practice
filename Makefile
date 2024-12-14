@@ -54,3 +54,14 @@ results/figure/last.png \
 results/figure/sierra.png
 	quarto render report/count_report.qmd
 
+# clean up 
+clean :
+	rm -f results/isles.dat \
+		results/abyss.dat \
+		results/last.dat \
+		results/sierra.dat
+	rm -f results/figure/isles.png \
+		results/figure/abyss.png \
+		results/figure/last.png \
+		results/figure/sierra.png
+	rm -rf report/count_report.html
