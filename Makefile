@@ -1,7 +1,6 @@
 # Makefile
 # Anna Nandar, Dec 2024
 
-
 all : report/count_report.html
 
 # wordcount data
